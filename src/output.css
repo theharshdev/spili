@@ -361,6 +361,10 @@
     border-inline-end-style: var(--tw-border-style);
     border-inline-end-width: 1px;
   }
+  .border-b-2 {
+    border-bottom-style: var(--tw-border-style);
+    border-bottom-width: 2px;
+  }
   .border-dashed {
     --tw-border-style: dashed;
     border-style: dashed;
