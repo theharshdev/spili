@@ -14,7 +14,7 @@
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
     />
     <link href="./src/output.css" rel="stylesheet" />
-    <title>Sign up</title>
+    <title>Verify OTP</title>
   </head>
   <body class="text-zinc-800">
     <section class="grid grid-cols-2 items-center h-dvh gap-6 md:p-8">
@@ -24,13 +24,19 @@
         <div class="sm:max-w-[450px] w-full">
           <!-- Logo -->
           <h3 class="text-4xl font-medium text-center">Spili</h3>
+          <p
+            class="text-sm text-zinc-700 text-center mt-4 mb-12 max-w-60 mx-auto italic"
+          >
+            "With us splitting money is always simple and stress-free."
+          </p>
           <!-- login here para -->
           <p class="text-base font-normal text-zinc-700 text-center mt-5">
-            Verify OTP, got on entered email...
+            To confirm your email address, <br />
+            Please enter the OTP we have sent to adz*****232@gmail.com
           </p>
-          <div class="flex-col flex gap-4 items-center justify-center mt-8">
+          <div class="flex-col flex gap-4 items-center justify-center mt-16">
             <!-- OTP input -->
-            <form class="block w-full">
+            <form action="./profile.html" class="block w-full">
               <div class="flex gap-4 items-center w-full">
                 <input
                   type="text"
@@ -59,16 +65,19 @@
               </div>
               <button
                 type="submit"
-                class="cursor-pointer bg-black text-white py-3 px-10 rounded-lg text-center flex justify-center items-center gap-2 hover:bg-zinc-700 transition duration-200 w-full mt-5"
+                class="cursor-pointer bg-black text-white py-3 px-10 rounded-lg text-center flex justify-center items-center gap-2 hover:bg-zinc-700 transition duration-200 w-full mt-8"
               >
                 Verify and Sign in <i class="bi text-2xl bi-check2"></i>
               </button>
             </form>
-            <!-- Registration link -->
-            <p class="text-center text-sm font-medium">
-              Don't have an account?
-              <a href="./signup.html" class="text-blue-500">Register here</a>.
-            </p>
+            <button
+              type="button"
+              class="cursor-pointer bg-black text-white py-3 px-10 rounded-lg text-center flex justify-center items-center gap-2 hover:bg-zinc-700 transition duration-200 w-full"
+            >
+              Resend the code
+              <i class="bi text-2xl bi-arrow-counterclockwise"></i>
+            </button>
+            <p class="text-sm text-zinc-700 text-center">Valid for 10 mins.</p>
           </div>
         </div>
       </div>
