@@ -413,6 +413,11 @@
       grid-column: span 1 / span 1;
     }
   }
+  .lg\:block {
+    @media (width >= 64rem) {
+      display: block;
+    }
+  }
 }
 * {
   font-family: "Inter", sans-serif;
